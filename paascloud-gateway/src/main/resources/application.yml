@@ -18,7 +18,7 @@ spring:
     name: @pom.artifactId@
   redis:
     host: paascloud-db-redis
-    password: 123456
+    password:
     port: 6379
     timeout: 0
   boot:

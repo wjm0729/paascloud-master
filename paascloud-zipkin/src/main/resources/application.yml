@@ -11,7 +11,7 @@ spring:
       password: admin
   redis:
     host: paascloud-db-redis
-    password: 123456
+    password:
     port: 6379
     timeout: 0
   datasource:
@@ -29,7 +29,7 @@ spring:
   rabbitmq:
     host: paascloud-mq-rabbit
     port: 5672
-    username: yangwensheng
+    username: root
     password: 123456
   sleuth:
     enabled: false

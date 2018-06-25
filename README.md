@@ -17,6 +17,29 @@
 	数据库连接池：Alibaba Druid
 	日志管理：Logback	前端框架：Vue全家桶以及相关组件
 	三方服务： 邮件服务、阿里云短信服务、七牛云文件服务、钉钉机器人服务、高德地图API
+	
+用到的技术和工具:
+    eureka          服务注册组件
+    security        安全组件
+    oauth2          认证组件
+    tomcat          web 容器
+    redis           db
+    zuul            网关
+    hystrix         熔断中间件
+    ribbon          负载均衡中间件
+    swagger         API文档框架
+    liquibase       数据库版本管理组件
+    zipkin+sleuth   分布式跟踪系统
+    rocketMq        MQ
+    sms             短信验证
+    druid           ds
+    dataflowJob     任务调度
+    mybatis         orm
+    pagehelper      data/view
+    jackson         json
+    feign           声明式的Web Service客户端
+	...
+	
 ```
 ### 平台目录结构说明
 
