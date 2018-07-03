@@ -4,6 +4,7 @@ import lombok.AccessLevel;
 import lombok.NoArgsConstructor;
 
 import java.util.Random;
+import java.util.concurrent.ThreadLocalRandom;
 
 /**
  * The class Random util.
@@ -62,7 +63,7 @@ public class RandomUtil {
 	}
 
 	private static String randomString(String baseString, int length) {
-		Random random = new Random();
+		Random random = ThreadLocalRandom.current();
 		StringBuilder sb = new StringBuilder();
 		if (length < 1) {
 			length = 1;
