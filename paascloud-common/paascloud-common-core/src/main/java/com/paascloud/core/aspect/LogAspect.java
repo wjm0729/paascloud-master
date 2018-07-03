@@ -27,6 +27,8 @@ import java.util.Date;
 /**
  * The class Log aspect.
  *
+ * 操作日志切面逻辑
+ *
  * @author paascloud.net@gmail.com
  */
 @Slf4j

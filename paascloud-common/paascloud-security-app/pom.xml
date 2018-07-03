@@ -7,6 +7,8 @@
         <artifactId>paascloud-common</artifactId>
         <version>1.0</version>
     </parent>
+
+	<description>安全,权限, session 管理等</description>
 	
 	<dependencies>
 		<dependency>

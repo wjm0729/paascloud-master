@@ -9,6 +9,10 @@
         <version>1.0</version>
     </parent>
 
+    <description>
+        存放一些跟具体业务逻辑无关的类: 如 utils, constant, dto, enums, exception 等
+    </description>
+
     <artifactId>paascloud-common-base</artifactId>
 
     <properties>

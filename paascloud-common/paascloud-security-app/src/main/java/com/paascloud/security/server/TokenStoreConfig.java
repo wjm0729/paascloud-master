@@ -25,7 +25,7 @@ import com.paascloud.security.core.properties.SecurityProperties;
 public class TokenStoreConfig {
 
 	/**
-	 * 使用redis存储token的配置，只有在paascloud.security.oauth2.tokenStore配置为redis时生效
+	 * 使用redis存储token的配置，只有在paascloud.security.oauth2.tokenStore 配置为redis时生效
 	 */
 	@Configuration
 	@ConditionalOnProperty(prefix = "paascloud.security.oauth2", name = "tokenStore", havingValue = "redis")

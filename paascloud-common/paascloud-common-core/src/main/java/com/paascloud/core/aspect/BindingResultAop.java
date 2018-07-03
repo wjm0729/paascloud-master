@@ -16,6 +16,8 @@ import java.lang.reflect.Method;
 /**
  * The class Binding result aop.
  *
+ * 表单验证切面逻辑
+ *
  * @author paascloud.net@gmail.com
  */
 @Component

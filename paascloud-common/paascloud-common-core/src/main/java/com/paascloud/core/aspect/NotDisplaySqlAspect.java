@@ -10,6 +10,8 @@ import org.springframework.stereotype.Component;
 /**
  * The class Not display sql aspect.
  *
+ * 不打印 sql
+ *
  * @author paascloud.net @gmail.com
  */
 @Aspect
